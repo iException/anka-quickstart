@@ -235,7 +235,7 @@ Page({
 
 ### 使用 Sass 和 PostCSS
 
-是的，我们能将 `src/paegs/home/home.wxss` 改写为 `src/paegs/home/home.css`，并且在里面引入别的 css 文件。需要区别的是，这里有两种引入方式：
+是的，我们能将 `src/paegs/home/home.wxss` 改写为 `src/paegs/home/home.css`，并且在里面引入别的 css 文件。需要区别的是，这里有两种引入方式：
 
 - `@import "./_var.css";`
 - `@wximport "./sub.css";`
