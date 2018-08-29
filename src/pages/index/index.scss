@@ -1,0 +1,10 @@
+@import '../../style/_var.scss';
+
+page {
+	color: $font-blue;
+
+	view {
+		font-size: 28rpx;
+		color: $font-red;
+	}
+}

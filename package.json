@@ -1,0 +1,33 @@
+{
+  "name": "@anka-dev/anka-quickstart",
+  "version": "0.0.1",
+  "description": "",
+  "main": "anka.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iException/anka-quickstart.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iException/anka-quickstart/issues"
+  },
+  "homepage": "https://github.com/iException/anka-quickstart#readme",
+  "dependencies": {
+    "is-odd": "^3.0.1",
+    "lodash": "^4.17.10",
+    "qs": "^6.5.2"
+  },
+  "devDependencies": {
+    "postcss-cssnext": "^3.1.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-reporter": "^6.0.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}

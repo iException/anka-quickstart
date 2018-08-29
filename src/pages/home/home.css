@@ -1,0 +1,8 @@
+@import "./_var.css";
+@wximport "./sub.css";
+
+page {
+    color: var(--font);
+    height: 100%;
+    width: 100%;
+}

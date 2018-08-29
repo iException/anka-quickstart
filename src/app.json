@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/page2/page2",
+        "pages/page1/page1",
+        "pages/home/home",
+        "pages/index/index"
+    ],
+    "subPackages": [
+        {
+            "root": "package2",
+            "pages": [
+                "33/33"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTitleText": "Wechat"
+    }
+}
