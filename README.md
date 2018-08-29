@@ -240,6 +240,6 @@ Page({
 - `@import "./_var.css";`
 - `@wximport "./sub.css";`
 
-`@import` 语句必须前置，其次是 `@wximport`。当使用 `@import` 时，文件会在编译时被引入，但是当使用 `@wximport` 时，文件并不会被合并，最终表现是：`@wximport` 转化为微信 `wxss` 的 `@import` 语法。
+`@import` 语句必须前置，其次是 `@wximport`。当使用 `@import` 时，文件会在编译时被引入，但是当使用 `@wximport` 时，文件并不会被合并，最终表现是：`@wximport` 转化为微信 `wxss` 的 `@import` 语法。
 
 **注意: 不要忘记 `postcss.config.js` 文件**
