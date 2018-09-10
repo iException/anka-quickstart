@@ -1,1 +1,3 @@
 <view>page: home</view>
+
+<navigator url="/pages/index/index">index page</navigator>

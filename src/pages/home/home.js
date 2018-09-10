@@ -1,12 +1,14 @@
 import qs from 'qs'
-import lodash from 'lodash'
+import genDefaultData from '../../defaultData'
 
 Page({
   onLoad() {
     qs.stringify({
       name: 'anka'
     })
-    console.log(lodash.cloneDeep(this.data))
+    this.setData({
+        ...genDefaultData()
+    })
   },
 
   onShow() {
