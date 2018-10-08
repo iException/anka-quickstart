@@ -1,1 +1,3 @@
 <view>page: index</view>
+<test></test>
+{{name}}

@@ -1,3 +1,6 @@
 <view>page: home</view>
 
+{{name}}
+
 <navigator url="/pages/index/index">index page</navigator>
+<navigator url="/package/test/test">test page</navigator>
