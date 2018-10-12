@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/iException/anka-quickstart#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
-    "is-odd": "^3.0.1",
-    "qs": "^6.5.2"
+    "@anka-dev/tracker": "^0.3.3",
+    "babel-runtime": "^6.26.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
