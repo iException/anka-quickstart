@@ -1,4 +1,5 @@
 import { BxTracker } from '@anka-dev/tracker'
+import genDefaultData from 'defaultData'
 
 const tracker = BxTracker.generateTrackerInstance({
     trackerHost: 'http://bi.baixing.com:9001/dw-web/log',
@@ -11,6 +12,8 @@ const tracker = BxTracker.generateTrackerInstance({
         })
     }
 })
+
+console.log(genDefaultData())
 
 App({
     onLaunch (options) {

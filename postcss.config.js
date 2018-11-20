@@ -4,10 +4,9 @@ module.exports = {
 		require('postcss-nested'),
 		require('postcss-for'),
 		require('postcss-preset-env')({
+            preserve: false, // Do not delete !
 			browsers: ['ie 8'],
-			features: {
-				autoprefixer: false
-			}
+            autoprefixer: false
 		}),
 		require('postcss-reporter')({ clearReportedMessages: true })
 	]

@@ -5,9 +5,9 @@
     ],
     "subPackages": [
         {
-            "root": "package",
+            "root": "subPackages/package",
             "pages": [
-                "test/test"
+                "pages/test/test"
             ]
         }
     ],
