@@ -8,6 +8,8 @@
 
 这份示例代码将帮助你上手 Anka-CLI。
 
+详细文档参见[文档站点](https://iexception.github.io/anka-doc)。
+
 ## 基础使用
 
 ### 初始化项目
@@ -21,32 +23,26 @@ $ npm install @anka-dev/cli -g
 成功之后在终端执行 `anka`，应当能看见如下信息:
 
 ```shell
-                          █████╗  ███╗   ██╗ ██╗  ██╗  █████╗
-                         ██╔══██╗ ████╗  ██║ ██║ ██╔╝ ██╔══██╗
-                         ███████║ ██╔██╗ ██║ █████╔╝  ███████║
-                         ██╔══██║ ██║╚██╗██║ ██╔═██╗  ██╔══██║
-                         ██║  ██║ ██║ ╚████║ ██║  ██╗ ██║  ██║
-                         ╚═╝  ╚═╝ ╚═╝  ╚═══╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝
+    _     _  _   _  _     _
+   /_\   | \| | | |/ /   /_\
+  / _ \  | .` | | ' <   / _ \
+ /_/ \_\ |_|\_| |_|\_\ /_/ \_\
 
+Usage:  <command> [options]
 
+Options:
+  --debug                             enable debug mode
+  --quiet                             hide compile log
+  -V, --version                       output the version number
+  -h, --help                          output usage information
 
-  Usage:  <command> [options]
-
-  Options:
-
-    -V, --version                     output the version number
-    -v                                --version
-    -h, --help                        output usage information
-
-  Commands:
-
-    init [options] [projectName]      创建小程序项目
-    dev                               开发模式
-    build                             构建模式
-    page [options] [targetPage]       创建小程序页面
-    component [componentName]         创建小程序组件
-    add [options] [componentName]     注册组件
-    remove [options] [componentName]  移除组件
+Commands:
+  prod                                Production mode
+  dev [pages...]                      Development mode
+  init [options] <project-name>       Initialize new project
+  new-page [options] <pages...>       Create a miniprogram page
+  new-cmpt [options] <components...>  Create a miniprogram component
+  enroll [options] <components...>    Enroll a miniprogram component
 ````
 
 其次我们要做的是使用 CLI 创建一个项目目录。

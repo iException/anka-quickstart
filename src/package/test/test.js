@@ -1,9 +1,0 @@
-Page({
-    onLoad () {
-
-    },
-
-    onShow () {
-
-    }
-})
