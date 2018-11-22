@@ -4,5 +4,8 @@ module.exports = {
   template: {
     page: './anka_template/pages',
     component: './anka_template/components'
-  }
+  },
+  ignored: [
+    'ignored.js'
+  ]
 };
