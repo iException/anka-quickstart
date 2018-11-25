@@ -1,3 +1,9 @@
+
+<image
+    src="/images/anka.png"
+    mode="aspectFit"
+/>
+
 <view>page: home</view>
 
 {{name}}
