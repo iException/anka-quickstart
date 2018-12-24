@@ -4,7 +4,9 @@
   "description": "",
   "main": "anka.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "anka dev",
+    "build": "anka prod"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "babel-runtime": "^6.26.0"
   },
   "devDependencies": {
+    "@anka-dev/cli": "^1.0.11",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.5",
