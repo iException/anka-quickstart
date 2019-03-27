@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/iException/anka-quickstart#readme",
   "dependencies": {
-    "@anka-dev/tracker": "^0.3.3",
+    "@anka-dev/tracker": "^0.4.5",
     "@babel/runtime": "^7.1.5",
     "babel-runtime": "^6.26.0"
   },
